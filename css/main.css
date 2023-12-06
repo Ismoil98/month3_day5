@@ -161,6 +161,7 @@
 
 .card {
    text-align: center;
+   margin-bottom: 150px;
 }
 
 .card_title{
@@ -194,14 +195,14 @@ line-height: 30px; /* 187.5% */
 /* SITES  */
 
 .sites {
-
+   
 }
 
 .sites_list {
    list-style-type: none;
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   vertical-align: top;
 }
 
 .sites_item{
@@ -209,5 +210,68 @@ line-height: 30px; /* 187.5% */
 }
 
 .sites_img{
-   
+}
+
+
+/* FOOTER   */
+
+.footer {
+   margin-top: 60px;
+   margin-bottom: 100px;
+   display: flex;
+   align-self: flex-start;
+   justify-content: space-between;
+}
+
+.footer_main {
+   width: 300px;
+}
+
+
+.products {
+   width: 120px;
+}
+
+.products_title {
+   margin-bottom: 20px;
+}
+
+.products ul {
+   list-style-type: none;
+}
+
+.products ul li {
+   margin-bottom: 10px;
+}
+
+.engage {
+
+}
+
+.engage_title {
+   margin-bottom: 20px;
+}
+
+.engage ul {
+   list-style-type: none;
+}
+
+.engage ul li {
+   margin-bottom: 10px;
+}
+
+.earn {
+
+}
+
+.earn_title {
+   margin-bottom: 20px;
+}
+
+.earn ul {
+   list-style-type: none;
+}
+
+.earn ul li {
+   margin-bottom: 10px;
 }

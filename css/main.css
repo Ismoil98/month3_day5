@@ -201,6 +201,7 @@ line-height: 30px; /* 187.5% */
 .sites_list {
    list-style-type: none;
    display: flex;
+   align-items: center;
    justify-content: space-between;
    vertical-align: top;
 }
